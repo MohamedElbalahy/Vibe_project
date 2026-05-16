@@ -155,6 +155,11 @@ st.markdown("""
     }
     
     .stChatMessage { background-color: #1e293b !important; }
+    .stChatMessage p, .stChatMessage li, .stChatMessage code, 
+    .stChatMessage pre, .stChatMessage span { 
+    color: #e2e8f0 !important; 
+}
+[data-testid="stChatMessageContent"] { color: #e2e8f0 !important; }
     
     .stButton button {
         background-color: #0369a1 !important;
